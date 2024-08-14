@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* font-family: "Inter", system-ui; */
+@import url('https://fonts.cdnfonts.com/css/miama');
+/* font-family: 'Miama', sans-serif; */
+
+/* repeated class */
+.m_a_p{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+.p_16{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button_p{
+    text-decoration: none;
+    padding: 16px 40px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+.b_c_t{
+    background: rgb(230, 83, 60);
+}
+.b_1{
+    border: 1px solid white;
+}
+/* body design */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", system-ui;
+}
+.main_body{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(90, 84, 84), rgb(8, 8, 8));;
+}
+.header_box{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>a{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: none;
+}
+nav>ul{
+    width: auto;
+    height: auto;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+nav>ul li{
+    padding: 12px 3px;
+}
+nav>ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 20px;
+}
+nav>ul a:hover{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+
+.header_content{
+    width: 70%;
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_text{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.header_text>h1{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+}
+.header_text>h1>span{
+    font-family: 'Miama', sans-serif;
+    font-size: 100px;
+}
+.header_text>span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.header_img{
+    width: 45%;
+    height: 100%;
+    background: url('../images/Images\ 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+.img_node1{
+    width: 200px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    padding-left: 20px;
+    right: 0;
+    top: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+}
+.img_node1>h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+}
+.img_node1>p{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+}
+.img_node2{
+    width: 210px;
+    height: 90px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    top: 580px;
+    left: -60px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+.img_node2>.div1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.img_node2>.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_node2>.div2>h2{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+}
+.img_node2>.div2>p{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+}
